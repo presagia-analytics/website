@@ -1,0 +1,26 @@
+enable: true
+title: Our Services
+subtitle: >
+  We provide premier strategic and analytical services in drug development.
+
+content:
+
+  - icon: ion-android-compass
+    name: Strategic Guidance
+    text: >
+      Strategies for efficiently navigating FDA regulation, obtaining and expanding labels, and assessing portfolios.
+
+  - icon: ion-ios-lightbulb-outline
+    name: Trial Design
+    text: >
+      Design trials based on sophisticated analytics to take into account patient heterogeneity but simple enough for the regulatory process.
+
+  - icon: ion-ios-pulse
+    name: Trial Monitoring
+    text: >
+      Continuously monitor trials to quickly assess efficacy and, if needed, pivot toward effective subpopulations.
+
+  - icon: ion-arrow-graph-up-right
+    name: Analysis
+    text: >
+      Analyses of of clinical trials, radiomics, genomics and beyond with an emphasis on actionable results. We provide robust, accurate, actionable results.

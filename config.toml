@@ -1,0 +1,103 @@
+title = "Presagia Inc."
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+[menu]
+
+#  [[menu.header]]
+#    weight = 2
+#    name = "Work"
+#    url = "/work"
+  [[menu.header]]
+    weight = 3
+    name = "Blog"
+    url = "/blog"
+  [[menu.header]]
+    weight = 4
+    name = "Service"
+    url = "/service"
+  [[menu.header]]
+    weight = 5
+    name = "Contact"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+#  [[menu.footer]]
+#    weight = 3
+#    name = "How it works"
+#    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+#  [[menu.footer]]
+#    weight = 5
+#    name = "Terms"
+#    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "Presagia Inc."
+    subtitle = "Scientists with foundational expertise in statistical and machine learning enabling advancements in drug development"
+
+  [params.wrapper]
+    enable = true
+    title = "About Us"
+    italic = "Presagia operationalizes advances in statistical/machine learning beyond the academic domain, into real applications in drug development. Our emphasis is strategic planning and trials with simple designs that have been optimized based on existing evidence."
+    paragraph = "With the emergence of tumor agnostic therapies and the evolution of the regulatory landscape (notably FDASIA), the breakthrough therapy designation bring new focus on single-cohort analyses of subsets of large early phase trials. These trials have been defined by inclusive eligibility criteria and extensive enrollment into expasion cohorts. Multi-indication drug development strategies have resulted. These strategies emphasize breakthrough designation in primary indication with rapid expansion to additional indications. Our group provides strategic guidance in this procedure through the use of analytics that interrogate several aspects of accruing trial data. The guidance we provide is based on analytical solutions that have been devised, studied, and published in academia. Our goal is to operationalize these methods in order to more quickly evaluate therapies and quickly bring effective thrapies to market. We have experience leveraging the evolving public trial databases to identify and quantify uncertainties in drug development and establish syntetic controls. Additionally we evaluate subpopulation treatment benefit heterogeneity following studies."
+
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = false
+    title = "We believe in great ideas"
+    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.call]
+    enable = false
+    title = "We design delightful digital experiences."
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+
+  [params.contact]
+    enable = false
+    title = "Talk with us"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Tell us about your trial"
+      address = "380 Stevens Ave, Suite 308, Solana Beach, CA 92075"
+      email = "Email: info@presagia.ai"
+#      phone = "Phone: +88 01672 506 744"
+    [params.contact.gmaps]
+      title = ""

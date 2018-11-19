@@ -9,10 +9,10 @@ theme = "airspace-hugo"
 #    weight = 2
 #    name = "Work"
 #    url = "/work"
-  [[menu.header]]
-    weight = 3
-    name = "Blog"
-    url = "/blog"
+#  [[menu.header]]
+#    weight = 3
+#    name = "Blog"
+#    url = "/blog"
   [[menu.header]]
     weight = 4
     name = "Service"

@@ -1,4 +1,4 @@
-title = "Presagia Inc."
+title = "Presagia"
 baseURL = "/"
 languageCode = "en-us"
 theme = "airspace-hugo"
@@ -56,14 +56,14 @@ theme = "airspace-hugo"
 
   [params.slider]
     enable = true
-    title = "Presagia Inc."
+    title = "Presagia"
     subtitle = "Foundational expertise in machine learning, experimental design, biology, and medicine. <br> <br> Accelerating advancements in drug development."
 
   [params.wrapper]
     enable = true
     title = "About Us"
     italic = "Presagia operationalizes advances in machine learning beyond the academic domain, into real applications in drug development. Our emphasis is strategic planning and trials with simple designs that have been optimized based on existing evidence."
-    paragraph = "Precision medicine as an endeavor resides at the intersections of machine learning, clinical trial design, biology, and medicine. Contemporary drug development programs require a toolbox that extends beyond conventional statistical analysis and designs. Presagia Inc. provides strategic guidance in the use of predictive analytics in drug development. Our solutions have been devised, studied, tested and published in academic journals. Our scientists consist of established leaders in the following areas:"
+    paragraph = "Precision medicine as an endeavor resides at the intersections of machine learning, clinical trial design, biology, and medicine. Contemporary drug development programs require a toolbox that extends beyond conventional statistical analysis and designs. Presagia provides strategic guidance in the use of predictive analytics in drug development. Our solutions have been devised, studied, tested and published in academic journals. Our scientists consist of established leaders in the following areas:"
    item1 = "multi-indication drug development strategies"
 
   [params.blog]

@@ -1,0 +1,35 @@
+<!-- Wrapper Start -->
+
+<style type="text/css">
+<!--
+.tab { margin-left: 20px; 
+       margin-top: -25px;
+}
+-->
+</style>
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{ .Site.Params.wrapper.title }}</h2>
+            <p>{{ .Site.Params.wrapper.italic }}
+          </div>
+          <p>{{ .Site.Params.wrapper.paragraph }}
+          <p class = "tab"> - Multi-indication drug development strategies</p>
+          <p class = "tab"> - Translation of evolving public trial databases into synthetic controls</p>
+<p class = "tab"> - Characterization patient subpopulations from trial data and public databases</p>
+<p class = "tab"> - Designs of trials with inclusive enrollment devised to monitor treatment benefit heterogeneity among patients and subpopulations</p>
+<p class = "tab"> - Adaptive designs of clinical trials applying predictive analytics to accruing trial data</p>
+<p class = "tab"> - Regulatory policy</p></p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/wrapper-img.png" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
